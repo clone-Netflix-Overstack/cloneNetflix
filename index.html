@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
+    <title>Netflix - Login</title>
     <link rel="stylesheet" href="css/login.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body class="bg-films">
     <div class="container-fluid">
         <header class="row">
-            <img src="/assets/netflix_logo_icon_170918.svg" />
+            <a href="index.html">
+                <img src="assets/netflix_logo_icon_170918.svg">
+            </a>
         </header>
     </div>
     <div class="block-master">
         <div class="login-box">
             <h1>Entrar</h1>
-            <form class="input-block" id="form-master">
+            <form class="input-block" id="form-master" method="GET">
                 <input type="email" name="email" id="input1" placeholder="Email ou Número de telefone" required>
 
                 <p id="message"></p>
 
                 <input type="password" name="password" id="input2" placeholder="Senha" required>
-                <button type="submit" id="button" formaction="home.html">Entrar</button>
+                <button type="submit" id="button">Entrar</button>
             </form>
             <div class="help-text">
                 <input type="checkbox" id="checkbox">

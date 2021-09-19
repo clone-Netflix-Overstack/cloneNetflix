@@ -1,3 +1,7 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -34,7 +38,7 @@ body {
 }
 
 .seeNow {
-    font-size: 15px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,12 +57,12 @@ body {
     color: #FFFFFF;
 }
 
-.category-popular,
-.category-scienceFictionAndFantasy,
-.category-actionAdventure {
+.category {
     display: flex;
     padding-left: 0.5vw;
-    overflow: auto
+    overflow: auto;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
 }
 
 .movie {
@@ -78,9 +82,7 @@ body {
     .movie img {
         width: 45vw;
     }
-    .category-popular,
-    .category-scienceFictionAndFantasy,
-    .category-actionAdventure {
+    .category {
         overflow: auto;
         padding-left: 1rem;
     }
@@ -93,9 +95,7 @@ body {
     .movie img {
         width: 40vw;
     }
-    .category-popular,
-    .category-scienceFictionAndFantasy,
-    .category-actionAdventure {
+    .category {
         overflow: auto;
         padding-left: 1rem;
     }
@@ -113,9 +113,7 @@ body {
         width: 25vw;
         padding: 0.3rem 0.2rem 0.2rem 0.3rem;
     }
-    .category-popular,
-    .category-scienceFictionAndFantasy,
-    .category-actionAdventure {
+    .category {
         overflow: auto;
         padding-left: 1rem;
     }

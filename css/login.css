@@ -1,6 +1,7 @@
     * {
         padding: 0;
         margin: 0;
+        font-family: 'Nunito Sans', sans-serif;
     }
     
      :root {
@@ -39,6 +40,7 @@
         background: rgba(0, 0, 0, 0.7);
         width: 350px;
         height: 400px;
+        margin-top: 10%;
     }
     
     .login-box p {
@@ -142,5 +144,15 @@
     @media (max-width: 800px) {
         .menu {
             display: none;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .menu {
+            display: none;
+        }
+
+        .login-box {
+            margin-top: 45%;
         }
     }
