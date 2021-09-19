@@ -26,6 +26,7 @@ class UserController {
             element.classList.add("success")
 
         }
+        window.location = './home.html'
 
     }
 
