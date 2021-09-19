@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="css/login.css" />
+
+</head>
+
+<body class="bg-films">
+    <div class="container-fluid">
+        <header class="row">
+            <img src="/assets/netflix_logo_icon_170918.svg" />
+        </header>
+    </div>
+    <div class="block-master">
+        <div class="login-box">
+            <h1>Entrar</h1>
+            <form class="input-block" id="form-master">
+                <input type="email" name="email" id="input1" placeholder="Email ou Número de telefone" required>
+
+                <p id="message"></p>
+
+                <input type="password" name="password" id="input2" placeholder="Senha" required>
+                <button type="submit" id="button">Entrar</button>
+            </form>
+            <div class="help-text">
+                <input type="checkbox" id="checkbox">
+                <a>Lembre se de mim</a>
+                <a class="help">Precisa de ajuda?</a>
+            </div>
+            <div class="social-media">
+                <img src="images/facebook.png" alt="Facebook" class="facebook-icon">
+                <p>Conectar com Facebook</p>
+            </div>
+            <div class="purchase">
+                <p>Novo por aqui?</p><a>Assine agora</a>
+            </div>
+
+        </div>
+    </div>
+    <script src="./src/Models/user.js"></script>
+    <script src="./src/Controllers/UserController.js"></script>
+    <script src="./form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    /*padding-top: 50vh;*/
+}
+
+.principal-content {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/castlevania-serie.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.seeNow {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DCDCDC;
+    background: none;
+    border: 0.15rem solid #DCDCDC;
+    border-radius: 10px;
+    height: 8vh;
+    width: 12vw;
+    position: relative;
+    margin: 50vh 20vw;
+    cursor: pointer;
+}
+
+.text-categorys {
+    color: #FFFFFF;
+}
+
+.category-popular,
+.category-scienceFictionAndFantasy,
+.category-actionAdventure {
+    display: flex;
+    padding-left: 0.5vw
+}
+
+.movie {
+    height: 40vh;
+    width: 100vw;
+    border: 2px solid black;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+.movie img {
+    width: 100%;
+    height: 40vh;
+}
+
+@media (max-width: 800px) {
+    .seeNow {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .principal-content {
+        height: 40vh;
+        width: 100%;
+    }
+    .seeNow {
+        font-size: 1.8rem;
+        margin: 10vh;
+        height: 12vh;
+        width: 25vw;
+        padding: 0.3rem 0.2rem 0.2rem 0.3rem;
+    }
+    .category-popular,
+    .category-scienceFictionAndFantasy,
+    .category-actionAdventure {
+        overflow: auto;
+        padding-left: 1rem;
+    }
+    .movie img {
+        width: 30vw;
+    }
+}

@@ -1,0 +1,146 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+     :root {
+        --color-primary: #ff0000;
+        --color-secondary: #615454;
+        --color-background-secondary: #222121;
+        --color-gray: #49495B;
+        --color-text: #b0b0b5;
+        --color-white: #fff;
+    }
+    
+    body.bg-films {
+        background-image: url("../images/netflix-background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: currentcolor;
+    }
+    
+    header {
+        background: linear-gradient(180deg, rgba(0, 0, 0, .69) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    
+    header img {
+        width: 150px;
+    }
+    
+    .block-master {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 250px;
+    }
+    
+    .login-box {
+        background: rgba(0, 0, 0, 0.7);
+        width: 350px;
+        height: 400px;
+    }
+    
+    .login-box p {
+        display: flex;
+        justify-content: space-between
+    }
+    
+    .login-box h1 {
+        display: flex;
+        align-items: center;
+        color: var(--color-white);
+        margin-left: 36px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    
+    .login-box .input-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 26px
+    }
+    
+    #input1,
+    #input2 {
+        margin: 7px;
+        padding: 15px;
+        border-radius: 5px;
+        width: 250px;
+        height: 2px;
+        font-size: 14px;
+        border: none;
+        background-color: var(--color-background-secondary);
+        outline: none;
+        color: var(--color-white);
+    }
+    
+    #button {
+        width: 279px;
+        height: 35px;
+        border-radius: 5px;
+        margin-top: 35px;
+        background-color: var(--color-primary);
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--color-white);
+        cursor: pointer;
+    }
+    
+    #checkbox {
+        margin-left: 36px;
+        margin-top: 7px;
+        cursor: pointer;
+    }
+    
+    .help-text a {
+        justify-content: space-between;
+        color: var(--color-secondary);
+        margin-left: -4px;
+        margin-right: 35px;
+    }
+    
+    .help {
+        cursor: pointer;
+    }
+    
+    .social-media {
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+        font-size: 15px;
+        color: var(--color-secondary);
+        margin-left: 30px;
+    }
+    
+    .facebook-icon {
+        width: 30px;
+        cursor: pointer;
+    }
+    
+    .social-media img {
+        padding: 5px;
+    }
+    
+    .purchase {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        color: var(--color-secondary);
+        margin-left: 38px;
+    }
+    
+    .purchase a {
+        font-weight: bold;
+        font-size: 15px;
+        color: var(--color-white);
+        cursor: pointer;
+    }
+    
+    @media (max-width: 800px) {
+        .menu {
+            display: none;
+        }
+    }
